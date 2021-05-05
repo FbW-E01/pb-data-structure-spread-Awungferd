@@ -71,3 +71,6 @@ let employee = { ...person, ...job };
 console.log(employee);
 
 //5.3 Then change the values of the properties in the employee object.
+employee.role = "Trainer"
+employee.name = "Andrew Jung"
+console.log(employee)
